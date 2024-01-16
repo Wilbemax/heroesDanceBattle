@@ -315,30 +315,7 @@ main{
 }
 
 
-.battle-scrin{
-    position: absolute;
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #00000060;
-    width: 100%;
-    height: 100%;
-}
-.battle-scrin-knight2{
-    transform: scale(-1, 1) ;
-    
-}
-@keyframes battle1 {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(-10px); }
-    100% { transform: translateX(0); }
- }
- 
- .battle-scrin-knight1, .battle-scrin-knight2 {
-    animation: battle 1s infinite;
- }
- 
+
 
 /*   Медиазапросы   */
 
